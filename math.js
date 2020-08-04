@@ -66,7 +66,7 @@ function table(columns) {
 }
 
 // Values getting closer and closer to 2.1
-const inputs = getValues(2.1, 10)
+const inputs = getValues(2.1, 20)
 
 // Random limit question
 let results = []
