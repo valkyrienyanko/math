@@ -2,6 +2,11 @@
 
 // Gets values closer and closer to x
 function getValues(x, n) {
+	// ----------------------------
+	// faster way (have not tried this out yet)
+	// .1 * 10 ** -i
+	// 2.1 % 1 === .1
+	// ----------------------------
 	const values = []
 	const arr = x.toString().split('.')
 
