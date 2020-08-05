@@ -37,6 +37,24 @@ function getValues(x, n) {
 	return values
 }
 
+/*
+function createList(input: number, iterations: number): number[] {
+    const decimal = input % 1;
+
+    const base = Math.round(input);
+
+    const output = new Array(iterations);
+
+    for (let i = 0; i < iterations; ++i) {
+        output[i] = base + decimal * 10 ** -i;
+    }
+
+    return output;
+}
+
+console.log(createList(2.1, 6));
+*/
+
 // Formats values into a nice table
 function table(columns) {
 	let a = columns[0].values
